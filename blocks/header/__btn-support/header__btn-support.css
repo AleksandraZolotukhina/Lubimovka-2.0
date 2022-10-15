@@ -10,3 +10,15 @@
     cursor: pointer;
     background: url('../../../img/plus.svg') 18px/25px no-repeat;
 }
+
+@media screen and (max-width: 1400px) {
+    .header__btn-support {
+        padding: 0 0 0 4%;
+        background: url('../../../img/plus.svg') 12%/25px no-repeat;
+    }
+}
+@media screen and (max-width: 670px) {
+    .header__btn-support {
+        display: none;
+    }
+}

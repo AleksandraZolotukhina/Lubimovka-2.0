@@ -1,0 +1,10 @@
+@media screen and (max-width: 1400px) {
+    .header__nav-item {
+        margin: 5px 32px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .header__nav-item {
+        margin: 5px 10px;
+    }
+}
