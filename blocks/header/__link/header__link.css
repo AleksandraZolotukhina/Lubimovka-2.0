@@ -1,0 +1,8 @@
+.header__link {
+    display: block;
+    text-decoration: none;
+    color: var(--color-dark);
+    margin: 0 16px 0 0;
+}
+
+

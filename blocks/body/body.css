@@ -1,6 +1,11 @@
 .body {
+    --color-dark: #242424;
+    --color-light: #ECEBE8;
+    --color-olive: #B7C09D;
+    --color-white: #ffffff;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #ECEBE8;
+    background-color: var(--color-light);
+    color: var(--color-dark);
     font-family: "Formular", Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,11 @@
+.header__links {
+    height: 40px;
+    margin: 12px 0 0 0;
+    padding: 10px 10px 0 22px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: solid 1px var(--color-dark);
+    border-left: solid 1px var(--color-dark);
+}
