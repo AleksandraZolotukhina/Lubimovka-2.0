@@ -2,8 +2,6 @@
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/body/body.css);
 
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -17,9 +15,3 @@
 
 @import url(../blocks/mobile-hamb/mobile-hamb.css);
 @import url(../blocks/button/button.css);
-
-@import url(../blocks/video/video.css);
-@import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/__iframe/video__iframe.css);
-@import url(../blocks/video/__iframe/-big/video__iframe-big.css);
-@import url(../blocks/video/__iframe/-small/video__iframe-small.css);

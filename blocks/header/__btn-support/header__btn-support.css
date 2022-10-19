@@ -8,8 +8,12 @@
   line-height: 17px;
   border: none;
   background-color: var(--color-light);
-  cursor: pointer;
   background: url('../../../img/plus.svg') 18px/25px no-repeat;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.header__btn-support:hover {
+  opacity: .6;
 }
 
 @media screen and (max-width: 1400px) {
