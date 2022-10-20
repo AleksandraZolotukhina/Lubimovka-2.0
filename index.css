@@ -1,10 +1,18 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/font.css);
-@import url(../blocks/body/body.css);@import url(../blocks/body/body.css);
+@import url('./vendor/normalize.css');
+@import url('./vendor/fonts/font.css');
+@import url('./blocks/body/body.css');
+@import url('./blocks/body/body.css');
+
 @import url('./blocks/section-title/section-title.css');
 @import url('./blocks/section-subtitle/section-subtitle.css');
+
 @import url('./blocks/video/video.css');
+@import url('./blocks/video/__block/video__block.css');
+@import url('blocks/video/__block/_one/video__block_one.css');
+@import url('blocks/video/__block/_two/video__block_two.css');
+@import url('blocks/video/__block/_three/video__block_three.css');
 @import url('./blocks/video/__iframes/video__iframes.css');
 @import url('./blocks/video/__iframe/video__iframe.css');
-@import url('./blocks/video/__iframe/-big/video__iframe-big.css');
-@import url('./blocks/video/__iframe/-small/video__iframe-small.css');
+@import url('./blocks/video/__iframe-container/video__iframe-container.css');
+@import url('./blocks/video/__iframe/_big/video__iframe_big.css');
+@import url('./blocks/video/__iframe/_small/video__iframe_small.css');

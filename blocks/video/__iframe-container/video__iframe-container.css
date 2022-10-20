@@ -1,0 +1,23 @@
+.video__iframe-container {
+    max-width: 713px;
+    max-height: 403px;
+    position: relative;
+    padding-bottom: 50%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 780px) {
+    .video__iframe-container {
+        padding-bottom: 376px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .video__iframe-container {
+        max-width: 366px;
+        max-height: 206px;
+        padding-bottom: 44%;
+    }
+}

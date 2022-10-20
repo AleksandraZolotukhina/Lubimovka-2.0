@@ -5,8 +5,21 @@
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -.01em;
-    color: #242424;
+    color: var(--color-dark);
     font-feature-settings: 'ss01' on;
     max-width: 716px;
-    margin: 55px auto 0;
+    margin-top: 52px;
+}
+
+@media screen and (max-width: 750px) {
+    .section-subtitle {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-subtitle {
+        margin-top: 64px;
+    }
 }
