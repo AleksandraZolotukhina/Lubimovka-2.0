@@ -1,3 +1,9 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/body/body.css);
+@import url(./blocks/titleBlock/titleBlock.css);
+@import url(./blocks/titleBlock/__img/titleBlock__img.css);
+@import url(./blocks/titleBlock/__link-arrow/titleBlock__link-arrow.css);
+@import url(./blocks/titleBlock/__link/titleBlock__link.css);
+@import url(./blocks/titleBlock/__text/titleBlock__text.css);
+@import url(./blocks/titleBlock/__title/titleBlock__title.css);

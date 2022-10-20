@@ -1,0 +1,13 @@
+.titleBlock {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "link link title title"
+    "text text image image"
+    "text text image image"
+  ;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  color: var(--color-dark);
+}

@@ -1,6 +1,11 @@
 .body {
-    max-width: 1440px;
-    margin: 0 auto;
-    background-color: #ECEBE8;
-    font-family: "Formular", Arial, Helvetica, sans-serif;
+  --color-dark: #242424;
+  --color-light: #ecebe8;
+  --color-olive: #b7c09d;
+  --color-white: #ffffff;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
 }
