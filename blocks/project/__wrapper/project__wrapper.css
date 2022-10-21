@@ -1,0 +1,21 @@
+.project__wrapper {
+    width: 51%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 900px) {
+    .project__wrapper {
+        width: 62%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .project__wrapper {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project__wrapper {
+        width: 88%;
+    }
+}
+
