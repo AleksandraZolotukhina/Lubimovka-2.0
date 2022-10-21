@@ -1,17 +1,17 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/font.css);
-@import url(../blocks/body/body.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/font.css);
+@import url(./blocks/body/body.css);
 
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/__nav-item/header__nav-item.css);
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__btn-support/header__btn-support.css);
-@import url(../blocks/header/__btn-projects/header__btn-projects.css);
-@import url(../blocks/header/__mobile-hamb/header__mobile-hamb.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__nav/header__nav.css);
+@import url(./blocks/header/__nav-item/header__nav-item.css);
+@import url(./blocks/header/__links/header__links.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__btn-support/header__btn-support.css);
+@import url(./blocks/header/__btn-projects/header__btn-projects.css);
+@import url(./blocks/header/__mobile-hamb/header__mobile-hamb.css);
 
-@import url(../blocks/mobile-hamb/mobile-hamb.css);
-@import url(../blocks/button/button.css);
+@import url(./blocks/mobile-hamb/mobile-hamb.css);
+@import url(./blocks/button/button.css);
