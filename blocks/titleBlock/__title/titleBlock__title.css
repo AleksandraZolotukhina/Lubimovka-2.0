@@ -1,13 +1,30 @@
 .titleBlock__title {
-  margin: 59px 0 65px 0;
+  margin: 58px 0 22px 0;
+  padding-left: 24px;
   max-width: 450px;
   max-height: 140px;
   font-family: 'Neue Machina';
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 40px;
   letter-spacing: -0.01em;
   color: var(--color-dark);
   grid-area: title;
+}
+
+@media screen and (min-width: 730px) {
+  .titleBlock__title {
+    margin: 59px 0 65px 0;
+    padding-right: 67px;
+    padding-left: 0;
+    font-size: 8vw;
+    line-height: 70px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .titleBlock__title {
+    font-size: 72px;
+  }
 }
