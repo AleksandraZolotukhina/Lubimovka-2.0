@@ -12,14 +12,6 @@
   color: var(--color-dark);
 }
 
-.titleBlock__container {
-  width: 100%;
-  display: block;
-  /* width: 414px; */
-  overflow: hidden;
-  align-self: center;
-}
-
 @media screen and (min-width: 730px) {
   .titleBlock {
     grid-template-areas:

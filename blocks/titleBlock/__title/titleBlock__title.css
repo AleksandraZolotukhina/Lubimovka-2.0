@@ -16,14 +16,20 @@
 @media screen and (min-width: 730px) {
   .titleBlock__title {
     margin: 59px 0 65px 0;
-    padding-right: 67px;
     padding-left: 0;
-    font-size: 8vw;
+    padding-right: 10px;
+    font-size: 6vw;
     line-height: 70px;
   }
 }
 
 @media screen and (min-width: 850px) {
+  .titleBlock__title {
+    padding-right: 67px;
+  }
+}
+
+@media screen and (min-width: 950px) {
   .titleBlock__title {
     font-size: 72px;
   }
