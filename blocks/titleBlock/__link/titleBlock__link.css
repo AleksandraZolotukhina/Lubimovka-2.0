@@ -25,7 +25,7 @@
 
 .titleBlock__link:hover {
   color: #fff;
-  transition: all 0.2s linear;
+  transition: all 0.3s linear;
 }
 
 .titleBlock__link:before {
@@ -37,16 +37,24 @@
   height: 31px;
   background: rgb(0, 0, 0);
   transition: all 0.3s linear;
+
 }
 
 .titleBlock__link:hover:before {
   width: 100%;
-  /* filter: invert(100); */
   z-index: -1;
-
+  animation: pulse 2s ease-in-out;
+  animation-delay: 0.3s
 }
 
-.hover_delay {
-  transform: scale(1.1);
-  /* transition-delay: 1s; */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
 }
