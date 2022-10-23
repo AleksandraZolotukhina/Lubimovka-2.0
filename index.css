@@ -15,3 +15,21 @@
 
 @import url(./blocks/mobile-hamb/mobile-hamb.css);
 @import url(./blocks/button/button.css);
+
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/footer/__containers/footer__containers.css');
+@import url('./blocks/footer/__container/footer__container.css');
+@import url('./blocks/footer/__container-row/footer__container-row.css');
+@import url('./blocks/footer/__container-column/footer__container-column.css');
+@import url('./blocks/footer/__logo/footer__logo.css');
+@import url('./blocks/footer/__logo-partners/footer__logo-partners.css');
+@import url('./blocks/footer/__logo-partner/footer__logo-partner.css');
+@import url('./blocks/footer/__text/footer__text.css');
+@import url('./blocks/footer/__text/_bold/footer__text_bold.css');
+@import url('./blocks/footer/__links/footer__links.css');
+@import url('./blocks/footer/__link/footer__link.css');
+@import url('./blocks/footer/__copyright/footer__copyright.css');
+@import url('./blocks/footer/__copyright/_doc/footer__copyright_doc.css');
+@import url('./blocks/footer/__design-logo/footer__design-logo.css');
+@import url('blocks/footer/__design-author/footer__design-author.css');
+@import url('blocks/footer/__author/footer__author.css');
