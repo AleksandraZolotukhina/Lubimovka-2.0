@@ -14,5 +14,6 @@
 @import url('./blocks/video/__iframes/video__iframes.css');
 @import url('./blocks/video/__iframe/video__iframe.css');
 @import url('./blocks/video/__iframe-container/video__iframe-container.css');
+@import url('./blocks/video/__iframe-container/_big/video__iframe-container_big.css');
 @import url('./blocks/video/__iframe/_big/video__iframe_big.css');
 @import url('./blocks/video/__iframe/_small/video__iframe_small.css');

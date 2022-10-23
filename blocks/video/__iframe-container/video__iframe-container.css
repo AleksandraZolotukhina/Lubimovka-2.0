@@ -2,22 +2,35 @@
     max-width: 713px;
     max-height: 403px;
     position: relative;
-    padding-bottom: 50%;
     height: 100%;
     width: 100%;
     overflow: hidden;
+    padding: 0;
+    border: none;
 }
 
-@media screen and (min-width: 780px) {
-    .video__iframe-container {
-        padding-bottom: 376px;
-    }
+.video__iframe-container:before {
+    background: url("../../../images/button-play-video.svg") no-repeat 50% rgba(0, 0, 0, .8);
+    background-size: 64px 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.video__iframe-container:hover:before {
+    opacity: 0.8;
+    transition: opacity .5s;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
     .video__iframe-container {
         max-width: 366px;
         max-height: 206px;
-        padding-bottom: 44%;
     }
 }
