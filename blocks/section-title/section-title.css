@@ -1,0 +1,31 @@
+.section-title {
+    font-family: "Neue Machina", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -.01em;
+    max-width: 568px;
+    margin: 97px 0 43px 0;
+    transform: translate(-2em, 0em);
+}
+
+@media screen and (max-width: 1320px) {
+    .section-title {
+        transform: translate(0);
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .section-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-title {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,15 @@
+.video__iframe-container_big {
+    padding-bottom: 50%;
+}
+
+@media screen and (min-width: 780px) {
+    .video__iframe-container_big {
+        padding-bottom: 376px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .video__iframe-container_big {
+        padding-bottom: 53%;
+    }
+}
