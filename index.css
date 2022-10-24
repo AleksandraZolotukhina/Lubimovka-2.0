@@ -16,6 +16,8 @@
 @import url(./blocks/mobile-hamb/mobile-hamb.css);
 @import url(./blocks/button/button.css);
 
+@import url('./blocks/content/content.css');
+
 @import url('./blocks/footer/footer.css');
 @import url('./blocks/footer/__containers/footer__containers.css');
 @import url('./blocks/footer/__container/footer__container.css');

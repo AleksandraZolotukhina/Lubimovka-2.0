@@ -8,4 +8,7 @@
     background-color: var(--color-light);
     color: var(--color-dark);
     font-family: "Formular", Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
