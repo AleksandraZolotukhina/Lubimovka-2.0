@@ -1,3 +1,7 @@
 .footer__logo-partners {
-
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0 0 0;
 }

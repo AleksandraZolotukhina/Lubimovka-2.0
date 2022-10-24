@@ -1,3 +1,5 @@
 .footer__containers {
-
+    display: flex;
+    flex-direction: column;
+    margin: 42px 92px 56px 32px;
 }

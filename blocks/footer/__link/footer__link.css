@@ -1,3 +1,15 @@
 .footer__link {
+    text-decoration: none;
+    color: var(--color-dark);
+    font-family: 'Formular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    max-width: 190px;
+    max-height: 17px;
+}
 
+.footer__link:hover {
+    text-decoration: underline;
 }
