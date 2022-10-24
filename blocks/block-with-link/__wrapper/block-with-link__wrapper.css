@@ -1,0 +1,8 @@
+.block-with-link__wrapper {
+    display: flex;
+    column-gap: 101px;
+    align-items: center;
+
+    width: 50%;
+    margin: 0 auto;
+}
