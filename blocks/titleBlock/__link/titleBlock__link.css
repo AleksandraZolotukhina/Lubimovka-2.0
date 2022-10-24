@@ -1,15 +1,9 @@
-.link {
-  display: block;
-  width: 120px;
-}
-
 .titleBlock__link {
   margin: 33px 0 0 30px;
   position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 10px;
   box-sizing: border-box;
   justify-content: space-between;
   width: 120px;
@@ -19,8 +13,26 @@
   font-size: 16px;
   line-height: 14px;
   border-bottom: 1px solid var(--color-dark);
+}
+
+.titleBlock__link_arrow {
+  margin: 0;
+  margin-left: -1px;
+  width: 21px;
+  height: 17px;
+  font-size: 19px;
+  line-height: 14px;
+  vertical-align: middle;
+}
+
+.titleBlock__link_left {
+  padding-left: 10px;
   border-right: 1px solid var(--color-dark);
-  grid-area: link;
+}
+
+.titleBlock__link_right {
+  padding-right: 10px;
+  border-left: 1px solid var(--color-dark);
 }
 
 .titleBlock__link:hover {
@@ -32,12 +44,18 @@
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
   width: 0;
   height: 31px;
   background: rgb(0, 0, 0);
   transition: all 0.3s linear;
+}
 
+.titleBlock__link_left:before {
+  right: 0;
+}
+
+.titleBlock__link_right:before {
+  left: 0;
 }
 
 .titleBlock__link:hover:before {

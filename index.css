@@ -2,5 +2,4 @@
 @import url(../vendor/fonts/font.css);
 @import url(../blocks/body/body.css);
 @import url(./blocks/titleBlock/titleBlock.css);
-@import url(./blocks/titleBlock/__link-arrow/titleBlock__link-arrow.css);
 @import url(./blocks/titleBlock/__link/titleBlock__link.css);
