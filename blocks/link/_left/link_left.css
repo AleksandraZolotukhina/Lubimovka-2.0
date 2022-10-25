@@ -1,7 +1,6 @@
 .link_left {
   padding-right: 15px;
   border-right: 1px solid var(--color-dark);
-
 }
 
 .link_left:before {
@@ -9,12 +8,6 @@
 }
 
 .link_left:after {
-  /* content: '';
-  position: absolute;
-  top: 3px; */
   right: 0;
-  /* height: 25px;
-  width: 25px; */
   background-image: url(../../../image/arrow-left.svg);
-  /* background-repeat: no-repeat; */
 }
