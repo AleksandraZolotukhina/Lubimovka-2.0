@@ -1,18 +1,24 @@
 .title-block__text {
   margin: 0 auto;
-  padding: 0 24px 36px 86px;
   max-width: 420px;
   max-height: 128px;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 28px;
+  line-height: 32px;
+  padding-left: 60px;
   grid-area: text;
 }
 
-@media screen and (min-width: 730px) {
+@media screen and (max-width: 1200px) {
   .title-block__text {
-    font-size: 28px;
-    line-height: 32px;
-    padding-left: 60px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .title-block__text {
+    padding: 0 24px 36px 86px;
+    font-size: 20px;
+    line-height: 24px;
   }
 }
