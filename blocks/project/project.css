@@ -1,0 +1,13 @@
+.project{
+    padding-top: 78px;
+    padding-bottom: 120px;
+
+    background-color: var(--color-olive);
+}
+
+@media screen and (max-width: 550px) {
+    .project{
+        padding-top: 56px;
+        padding-bottom: 72px;
+    }
+}

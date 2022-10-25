@@ -1,0 +1,24 @@
+.section-subtitle {
+    font-family: Formular, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.01em;
+    font-feature-settings: 'ss01' on;
+    max-width: 716px;
+    margin-top: 52px;
+}
+
+@media screen and (max-width: 750px) {
+    .section-subtitle {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section-subtitle {
+        margin-top: 64px;
+    }
+}

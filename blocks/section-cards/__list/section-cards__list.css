@@ -1,0 +1,15 @@
+.section-cards__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  max-width: calc(100vw - 42px);
+  justify-content: start;
+  overflow: hidden;
+}
+@media screen and (max-width: 1370px) {
+    .section-cards__list {
+        padding-left: 24px;
+    }
+}

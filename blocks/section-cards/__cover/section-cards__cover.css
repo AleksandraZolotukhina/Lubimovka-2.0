@@ -1,0 +1,10 @@
+.section-cards__cover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-olive);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
