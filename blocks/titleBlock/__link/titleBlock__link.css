@@ -13,9 +13,10 @@
   font-size: 16px;
   line-height: 14px;
   border-bottom: 1px solid var(--color-dark);
+  text-transform: uppercase;
 }
 
-.titleBlock__link_arrow {
+.titleBlock__link-arrow {
   margin: 0;
   margin-left: -1px;
   width: 21px;
