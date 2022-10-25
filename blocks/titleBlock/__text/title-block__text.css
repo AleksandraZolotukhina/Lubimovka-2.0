@@ -1,4 +1,4 @@
-.titleBlock__text {
+.title-block__text {
   margin: 0 auto;
   padding: 0 24px 36px 86px;
   max-width: 420px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 730px) {
-  .titleBlock__text {
+  .title-block__text {
     font-size: 28px;
     line-height: 32px;
     padding-left: 60px;

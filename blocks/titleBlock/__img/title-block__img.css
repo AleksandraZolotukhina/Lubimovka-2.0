@@ -1,17 +1,16 @@
-.titleBlock__img {
-  object-fit: cover;
-  overflow: hidden;
+.title-block__img {
+  justify-self: center;
   grid-area: image;
 }
 
 @media screen and (min-width: 730px) {
-  .titleBlock__img {
+  .title-block__img {
     max-width: 100%;
   }
 }
 
 @media screen and (min-width: 850px) {
-  .titleBlock__img {
+  .title-block__img {
     max-width: 100%;
   }
 }

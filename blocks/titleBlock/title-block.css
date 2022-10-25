@@ -1,4 +1,4 @@
-.titleBlock {
+.title-block {
   width: 100%;
   display: grid;
   grid-template-columns: minmax(414px, 1fr);
@@ -10,10 +10,11 @@
   font-family: 'Neue Machina';
   font-style: normal;
   color: var(--color-dark);
+  overflow: hidden;
 }
 
 @media screen and (min-width: 730px) {
-  .titleBlock {
+  .title-block {
     grid-template-areas:
       'link link title title'
       'text text image image'

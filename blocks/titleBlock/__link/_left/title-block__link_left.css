@@ -1,0 +1,8 @@
+.title-block__link_left {
+  padding-left: 10px;
+  border-right: 1px solid var(--color-dark);
+}
+
+.title-block__link_left:before {
+  right: 0;
+}

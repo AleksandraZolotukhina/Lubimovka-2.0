@@ -1,5 +1,6 @@
-.titleBlock__link-arrow {
+.title-block__link_arrow {
   margin: 0;
+  margin-left: -1px;
   width: 21px;
   height: 17px;
   font-size: 19px;
