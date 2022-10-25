@@ -13,6 +13,7 @@
   font-size: 16px;
   line-height: 14px;
   border-bottom: 1px solid var(--color-dark);
+  cursor: pointer;
 }
 
 .title-block__link:hover {
@@ -33,7 +34,7 @@
 .title-block__link:hover:before {
   width: 100%;
   z-index: -1;
-  animation: pulse 2s ease-in-out;
+  animation: pulse 1s ease-in-out;
   animation-delay: 0.3s;
 }
 
