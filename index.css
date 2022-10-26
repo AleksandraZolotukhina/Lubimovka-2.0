@@ -1,3 +1,11 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/font.css);
-@import url(../blocks/body/body.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/font.css);
+@import url(./blocks/body/body.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/__figure/popup__figure.css);
+@import url(./blocks/popup/_openned/popup_openned.css);
+@import url(./blocks/popup/__full-photo/popup__full-photo.css);
+@import url(./blocks/popup/__btn/popup__btn.css);
+@import url(./blocks/popup/__btn/_close/popup__btn_close.css);
+@import url(./blocks/popup/__btn/_next/popup__btn_next.css);
+@import url(./blocks/popup/__btn/_previous/popup__btn_previous.css);
