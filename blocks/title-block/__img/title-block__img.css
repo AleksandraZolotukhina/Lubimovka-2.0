@@ -1,0 +1,12 @@
+.title-block__img {
+  max-width: 100%;
+  justify-self: center;
+  grid-area: image;
+}
+
+@media screen and (max-width: 700px) {
+  .title-block__img {
+    max-width: fit-content;
+  }
+}
+

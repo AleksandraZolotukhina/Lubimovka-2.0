@@ -1,4 +1,6 @@
-.link {
+
+.title-block__link {
+
   margin: 33px 0 0 30px;
   position: relative;
   display: flex;
@@ -17,26 +19,15 @@
   text-transform: uppercase;
 }
 
-.link:hover {
-  cursor: pointer;
+
+
+.title-block__link:hover {
   color: #fff;
   transition: all 0.3s linear;
 }
 
-.link:after {
-  content: '';
-  position: absolute;
-  top: 3px;
-  height: 25px;
-  width: 25px;
-  background-repeat: no-repeat;
-}
 
-.link:hover:after {
-  filter: invert();
-}
-
-.link:before {
+.title-block__link:before {
 
   content: '';
   position: absolute;
@@ -48,12 +39,8 @@
 }
 
 
-.link:hover:before {
-  width: 100%;
-  z-index: -1;
-  animation: pulse 1s ease-in-out;
-  animation-delay: 0.3s;
 
+.title-block__link:hover:before {
   width: 100%;
   z-index: -1;
   animation: pulse 1s ease-in-out;
@@ -66,6 +53,7 @@
     transform: scale(1);
   }
   50% {
+
     transform: scale(1.1);
 
     transform: scale(1.2);
