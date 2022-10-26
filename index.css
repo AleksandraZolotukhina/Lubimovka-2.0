@@ -41,3 +41,7 @@
 @import url('./blocks/video/__iframe-container/_big/video__iframe-container_big.css');
 @import url('./blocks/video/__iframe/_big/video__iframe_big.css');
 @import url('./blocks/video/__iframe/_small/video__iframe_small.css');
+
+@import url(./blocks/link/link.css);
+@import url(./blocks/link/_left/link_left.css);
+@import url(./blocks/link/_right/link_right.css);
