@@ -4,7 +4,7 @@
   padding: 0;
   display: flex;
   flex-direction: row;
-  max-width: calc(100vw - 42px);
+  max-width: calc(100% - 42px);
   justify-content: start;
   overflow: hidden;
 }

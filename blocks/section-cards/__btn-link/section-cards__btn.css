@@ -1,4 +1,4 @@
-.section-cards__btn {
+.section-cards__btn-link {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--color-dark);
@@ -12,8 +12,17 @@
     line-height: 22px;
     position: relative;
 }
+.section-cards__btn-link::before {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 21px;
+    height: 21px;
+    background: url("../../../../img/btn-arrow.svg") center/contain no-repeat;
+}
 @media screen and (max-width: 670px) {
-    .section-cards__btn {
+    .section-cards__btn-link {
         display: block;
     }
 };

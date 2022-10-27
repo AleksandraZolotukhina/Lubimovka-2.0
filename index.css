@@ -47,10 +47,10 @@
 @import url(./blocks/section-cards/__cover/section-cards__cover.css);
 @import url(./blocks/section-cards/__name/section-cards__name.css);
 @import url(./blocks/section-cards/__description/section-cards__description.css);
-@import url(./blocks/section-cards/__description/_weight/section-cards__description_weght.css);
-@import url(./blocks/section-cards/__btn/section-cards__btn.css);
-@import url(./blocks/section-cards/__btn/_link/section-cards__btn_link_reading.css);
-@import url(./blocks/section-cards/__btn/_link/section-cards__btn_link_download.css);
+@import url(./blocks/section-cards/__description/_small/section-cards__description_small.css);
+@import url(./blocks/section-cards/__btn-link/section-cards__btn.css);
+@import url(./blocks/section-cards/__btn-link/_download/section-cards__btn-link_download.css);
+@import url(./blocks/section-cards/__btn-link/_reading/section-cards__btn-link_reading.css);
 
-@import url(./blocks/person/person.css);
+@import url(./blocks/person/__img/person__img.css);
 @import url(./blocks/person/__description/person__description.css);
