@@ -1,4 +1,5 @@
 .popup__full-photo {
-    max-width: 75vw;
-    max-height: 75vh;
+    width: 54vw;
+    max-width: 70vw;
+    max-height: 70vh;
 }
