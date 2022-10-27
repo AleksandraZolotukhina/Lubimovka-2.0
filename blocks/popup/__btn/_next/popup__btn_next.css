@@ -1,9 +1,0 @@
-.popup__btn_next {
-    /* position: absolute;
-    right: -35px;
-    top: -35px; */
-    background-image: url(../../../../images/btn-right.svg);
-    margin-left: 32px;
-    padding: 0;
-    transition: linear 0.3s;
-}

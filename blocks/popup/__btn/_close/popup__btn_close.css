@@ -1,11 +1,13 @@
 .popup__btn_close {
-    position: absolute;
-    right: 115px;
-    top: 16px;
-    width: 41px;
-    height: 41px;
-    background-image: url(../../../../images/btn-cross.svg);
-    background-size: 9px
+  position: absolute;
+  right: 99px;
+  top: 16px;
+  width: 41px;
+  height: 41px;
+  background-image: url(../../../../images/btn-cross.svg);
+  background-color: var(--color-light);
+  background-size: 9px;
+  /* border: 1px solid var(--color-light); */
 }
 
 /* @media screen and (max-width: 540px) {

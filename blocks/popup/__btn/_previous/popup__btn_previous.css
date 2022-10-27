@@ -1,9 +1,0 @@
-.popup__btn_previous {
-    /* position: absolute;
-    right: -35px;
-    top: -35px; */
-    background-image: url(../../../../images/btn-left.svg);
-    padding: 0;
-    margin-right: 32px;
-    transition: linear 0.3s;
-}
