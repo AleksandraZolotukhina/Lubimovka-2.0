@@ -1,0 +1,28 @@
+.section-cards__btn-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-dark);
+    height: 24px;
+    margin: 0;
+    padding: 16px;
+    display: none;
+    width: calc(100% - 32px);
+    border-top: 1px solid var(--color-dark);
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+}
+.section-cards__btn-link::before {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 21px;
+    height: 21px;
+    background: url("../../../../img/btn-arrow.svg") center/contain no-repeat;
+}
+@media screen and (max-width: 670px) {
+    .section-cards__btn-link {
+        display: block;
+    }
+};

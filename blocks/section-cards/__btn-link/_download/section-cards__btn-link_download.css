@@ -1,0 +1,3 @@
+.section-cards__btn-link_reading::before {
+    transform: rotate(135deg);
+}

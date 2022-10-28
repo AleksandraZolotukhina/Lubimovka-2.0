@@ -56,3 +56,18 @@
 @import url(./blocks/title-block/__link/_right/title-block__link_right.css);
 @import url(./blocks/title-block/__text/title-block__text.css);
 @import url(./blocks/title-block/__title/title-block__title.css);
+
+@import url(./blocks/section-cards/section-cards.css);
+@import url(./blocks/section-cards/__list/section-cards__list.css);
+@import url(./blocks/section-cards/__item/section-cards__item.css);
+@import url(./blocks/section-cards/__container/section-cards__container.css);
+@import url(./blocks/section-cards/__cover/section-cards__cover.css);
+@import url(./blocks/section-cards/__name/section-cards__name.css);
+@import url(./blocks/section-cards/__description/section-cards__description.css);
+@import url(./blocks/section-cards/__description/_small/section-cards__description_small.css);
+@import url(./blocks/section-cards/__btn-link/section-cards__btn.css);
+@import url(./blocks/section-cards/__btn-link/_download/section-cards__btn-link_download.css);
+@import url(./blocks/section-cards/__btn-link/_reading/section-cards__btn-link_reading.css);
+
+@import url(./blocks/person/__img/person__img.css);
+@import url(./blocks/person/__description/person__description.css);
