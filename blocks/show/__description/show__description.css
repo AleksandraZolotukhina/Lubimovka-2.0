@@ -1,0 +1,5 @@
+.show__description {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}

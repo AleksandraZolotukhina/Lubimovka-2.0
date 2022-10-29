@@ -1,0 +1,22 @@
+.show__link {
+  background: none;
+  width: 130px;
+  padding: 9px 0 9px 30px;
+  margin: 0 0 16px 0;
+  border-right: none;
+  border-left: solid 1px var(--color-dark);
+  position: relative;
+}
+.show__link:last-child {
+  margin: 0;
+}
+.show__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 34px;
+  background: url("../../../img/btn-arrow.svg") 13px 12px/21px no-repeat;
+  transform: rotate(180deg);
+}
