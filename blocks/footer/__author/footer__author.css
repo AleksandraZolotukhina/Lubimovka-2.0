@@ -7,4 +7,9 @@
     font-size: 14px;
     line-height: 17px;
     color: var(--color-dark);
+    text-decoration: none;
+}
+
+.footer__author:hover {
+    text-decoration: underline;
 }
