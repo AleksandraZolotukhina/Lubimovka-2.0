@@ -1,0 +1,23 @@
+.block-mail__text {
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--color-dark);
+  max-width: 468px;
+  margin: 35px 0 0 52%;
+}
+
+@media screen and (max-width: 930px) {
+  .block-mail__text {
+    margin-left: 14%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .block-mail__text {
+    margin-top: 20px;
+  }
+}

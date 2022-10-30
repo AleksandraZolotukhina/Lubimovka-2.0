@@ -1,0 +1,8 @@
+.block-mail {
+  background-color: var(--color-light);
+  margin-top: 73px;
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
