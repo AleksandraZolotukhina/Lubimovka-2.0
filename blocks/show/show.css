@@ -5,3 +5,10 @@
   column-gap: 30px;
   font-family: "Formular", sans-serif;
 }
+@media screen and (max-width: 975px) {
+  .show {
+    column-gap: 20px;
+    padding: 0 0 0 12px;
+    grid-template-columns: 92px 220px;
+  }
+}

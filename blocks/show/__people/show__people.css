@@ -3,3 +3,8 @@
   font-size: 16px;
   line-height: 22px;
 }
+@media screen and (max-width: 975px) {
+  .show__people {
+    margin: 0;
+  }
+}
