@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 19px;
+    padding: 16px 20px 15px 19px;
+    margin-top: -9px;
     width: 298px;
     flex-shrink: 0;
 
@@ -38,4 +39,10 @@
 .block-with-link__link:hover::after {
     background-image: url("../../../img/btn-white-arrow.svg");
     transform: rotate(0deg);
+}
+
+@media screen and (max-width: 880px) {
+    .block-with-link__link{
+        margin-top: 16px;
+    }
 }
