@@ -1,0 +1,5 @@
+@media screen and (max-width: 975px) {
+  .section-shows__container_count_two {
+    display: none;
+  }
+}

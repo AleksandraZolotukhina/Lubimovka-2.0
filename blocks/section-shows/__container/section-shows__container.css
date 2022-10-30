@@ -1,5 +1,7 @@
 .section-shows__container {
+  max-width: 1700px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }

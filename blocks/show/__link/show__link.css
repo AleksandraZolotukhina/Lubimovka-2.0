@@ -1,4 +1,6 @@
 .show__link {
+  min-width: 130px;
+  max-height: 14px;
   background: none;
   width: 130px;
   padding: 9px 0 9px 30px;
@@ -19,4 +21,9 @@
   height: 34px;
   background: url("../../../img/btn-arrow.svg") 13px 12px/21px no-repeat;
   transform: rotate(180deg);
+}
+@media screen and (max-width: 975px) {
+  .show__link {
+    margin: 0 26px 0 0;
+  }
 }

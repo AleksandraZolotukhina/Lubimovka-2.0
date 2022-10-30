@@ -1,6 +1,7 @@
 .show {
   display: grid;
   grid-template-columns: 120px 270px;
-  gap: 30px;
+  grid-template-rows: auto;
+  column-gap: 30px;
   font-family: "Formular", sans-serif;
 }
