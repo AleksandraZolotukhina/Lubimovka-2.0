@@ -71,3 +71,10 @@
 
 @import url(./blocks/person/__img/person__img.css);
 @import url(./blocks/person/__description/person__description.css);
+
+@import url(./blocks/block-with-link/block-with-link.css);
+@import url(./blocks/block-with-link/__wrapper/block-with-link__wrapper.css);
+@import url(./blocks/block-with-link/__title/block-with-link__title.css);
+@import url(./blocks/block-with-link/__text/block-with-link__text.css);
+@import url(./blocks/block-with-link/__wrapper-text/block-with-link__wrapper-text.css);
+@import url(./blocks/block-with-link/__link/block-with-link__link.css);
