@@ -2,3 +2,15 @@
     display: flex;
     margin-left: 175px;
 }
+
+@media screen and (max-width: 980px) {
+    .footer__container-copyright {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .footer__container-copyright {
+        margin-bottom: 20px;
+    }
+}

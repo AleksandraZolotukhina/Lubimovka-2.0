@@ -4,6 +4,8 @@
     margin-bottom: 50px;
 }
 
-.footer__container-around:last-child {
-    margin-bottom: 0;
+@media screen and (max-width: 810px) {
+    .footer__container-around {
+        flex-direction: column;
+    }
 }

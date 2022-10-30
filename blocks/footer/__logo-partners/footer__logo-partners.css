@@ -5,3 +5,11 @@
     padding-left: 0;
     margin: 5px 0 0 0;
 }
+
+@media screen and (max-width: 470px) {
+    .footer__logo-partners {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 2fr));
+        gap: 33px;
+    }
+}

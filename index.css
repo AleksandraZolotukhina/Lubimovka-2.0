@@ -25,6 +25,7 @@
 @import url(./blocks/footer/__container-row/footer__container-row.css);
 @import url(./blocks/footer/__container-column/footer__container-column.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__container-partners/footer__container-partners.css);
 @import url(./blocks/footer/__title-partners/footer__title-partners.css);
 @import url(./blocks/footer/__logo-partners/footer__logo-partners.css);
 @import url(./blocks/footer/__logo-partner-container/footer__logo-partner-container.css);
@@ -34,9 +35,11 @@
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__link-container/footer__link-container.css);
 @import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__container-copyrights/footer__container-copyrights.css);
 @import url(./blocks/footer/__container-copyright/footer__container-copyright.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
 @import url(./blocks/footer/__copyright/_doc/footer__copyright_doc.css);
+@import url(./blocks/footer/__container-design/footer__container-design.css);
 @import url(./blocks/footer/__design-logo/footer__design-logo.css);
 @import url(./blocks/footer/__design-author/footer__design-author.css);
 @import url(./blocks/footer/__author/footer__author.css);

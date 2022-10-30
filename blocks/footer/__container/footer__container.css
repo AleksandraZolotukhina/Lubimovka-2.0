@@ -2,3 +2,9 @@
     display: flex;
     margin-bottom: 22px;
 }
+
+@media screen and (max-width: 650px) {
+    .footer__container {
+        flex-direction: column;
+    }
+}
