@@ -1,0 +1,11 @@
+.footer__containers {
+    display: flex;
+    flex-direction: column;
+    margin: 42px 92px 56px 32px;
+}
+
+@media screen and (max-width: 860px) {
+    .footer__containers {
+        margin-right: 32px;
+    }
+}

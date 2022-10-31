@@ -1,0 +1,13 @@
+.link_left {
+  padding-right: 15px;
+  border-right: 1px solid var(--color-dark);
+}
+
+.link_left:before {
+  right: 0;
+}
+
+.link_left:after {
+  right: 0;
+  background-image: url(../../../image/arrow-left.svg);
+}

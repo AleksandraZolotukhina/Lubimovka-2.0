@@ -1,0 +1,23 @@
+.title-block {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(414px, 1fr);
+  grid-template-areas:
+    'link link title title'
+    'text text image image'
+    'text text image image';
+  font-family: 'Neue Machina';
+  font-style: normal;
+  color: var(--color-dark);
+  overflow: hidden;
+}
+
+@media screen and (max-width: 730px) {
+  .title-block {
+    grid-template-areas:
+      'link'
+      'title'
+      'text'
+      'image';
+  }
+}

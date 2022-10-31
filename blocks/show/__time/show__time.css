@@ -1,0 +1,9 @@
+.show__time {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0 0 4px 0;
+}

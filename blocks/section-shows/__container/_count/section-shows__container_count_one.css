@@ -1,0 +1,8 @@
+.section-shows__container_count_one {
+  margin: 120px 0 0 0;
+}
+@media screen and (max-width: 975px) {
+  .section-shows__container_count_one {
+    display: none;
+  }
+}

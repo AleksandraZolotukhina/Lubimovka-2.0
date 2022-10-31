@@ -1,0 +1,11 @@
+.footer__container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 555px) {
+    .footer__container-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 2fr));
+    }
+}

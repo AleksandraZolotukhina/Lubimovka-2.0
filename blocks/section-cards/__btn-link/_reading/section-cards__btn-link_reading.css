@@ -1,0 +1,3 @@
+.section-cards__btn-link_download::before {
+    transform: rotate(270deg);
+}

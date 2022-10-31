@@ -1,0 +1,25 @@
+.header__nav {
+    width: 100%;
+    padding: 0 41px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1400px) {
+    .header__nav {
+        max-width: 600px;
+        padding: 0 16px 0 0;
+    }
+}
+@media screen and (max-width: 970px) {
+    .header__nav {
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .header__nav {
+        display: none;
+    }
+}

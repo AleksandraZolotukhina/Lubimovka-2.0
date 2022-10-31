@@ -1,0 +1,11 @@
+.section-cards {
+    font-family: "Neue Machina", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.section-cards:last-child {
+    margin: 0 0 112px 0;
+}

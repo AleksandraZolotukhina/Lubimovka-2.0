@@ -1,0 +1,11 @@
+.header__link {
+    display: block;
+    text-decoration: none;
+    color: var(--color-dark);
+    margin: 0 16px 0 0;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+  }
+  .header__link:hover {
+    opacity: .6;
+  }

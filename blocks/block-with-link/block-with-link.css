@@ -1,0 +1,13 @@
+.block-with-link {
+    margin-top: 100px;
+    padding-top: 71px;
+    padding-bottom: 140px;
+
+    background-color: var(--color-olive);
+}
+@media screen and (max-width: 880px) {
+    .block-with-link {
+       padding-top: 56;
+       padding-bottom: 72px;
+    }
+}
