@@ -8,12 +8,12 @@
 }
 
 .popup__btn-arrow_next:hover:after {
-    animation: scale 0.5s 0.9s ease, border-round-right 0.6s 0s ease;
+    animation: border-round-right 0.6s 0s ease;
 }
 
 .popup__btn-arrow_next::before {
     right: -3px;
-    background-image: url(../../../../../images/arrow-right.svg);
+    transform: rotate(180deg)
 }
 
 @keyframes border-round-right {
@@ -30,9 +30,14 @@
     }
 }
 
-
 @media screen and (max-width: 770px) {
     .popup__btn-arrow_next {
-    margin-left: 10px;
+        bottom: 60px;
+    }
+    .popup__btn-arrow_next::after {
+        right: 0;
+    }
+    .popup__btn-arrow_next:hover:after {
+        animation: none;
 }
 }

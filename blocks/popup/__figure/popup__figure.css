@@ -4,4 +4,12 @@
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin: 0;
+}
+
+@media screen and (max-width: 770px) {
+    .popup__figure {
+        align-items: flex-end;
+        flex-direction: column;
+    }
 }

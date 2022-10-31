@@ -1,4 +1,8 @@
-.popup__btn-arrow::before {
+.popup__btn-arrow {
+    background-color: transparent;
+    }
+
+    .popup__btn-arrow::before {
     z-index: 2;
     content: '';
     position: absolute;
@@ -7,7 +11,7 @@
     height: 50px;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 0s filter;
+    background-image: url(../../../../images/arrow-left.svg);
     }
 
     .popup__btn-arrow:hover:before {
@@ -32,14 +36,18 @@
     transition-delay: 0.35s;
     }
 
-    @keyframes scale {
-    from {
-        transform: scale(1);
+    @media screen and (max-width: 770px) {
+    .popup__btn-arrow {
+        background-color: var(--color-light);
     }
-    50% {
-        transform: scale(1.1);
+
+    .popup__btn-arrow,
+    .popup__btn-arrow::after,
+    .popup__btn-arrow::before {
+        width: 41px;
+        height: 41px;
+        margin: 0;
+        transition: none;
+        border: none;
     }
-    to {
-        transform: scale(1);
-    }
-    }
+}

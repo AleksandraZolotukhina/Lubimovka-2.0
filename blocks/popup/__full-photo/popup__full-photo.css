@@ -3,3 +3,11 @@
     max-width: 70vw;
     max-height: 70vh;
 }
+
+@media screen and (max-width: 770px) {
+    .popup__full-photo {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    }
+}
