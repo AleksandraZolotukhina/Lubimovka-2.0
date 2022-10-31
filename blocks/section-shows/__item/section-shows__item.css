@@ -1,0 +1,26 @@
+.section-shows__item {
+  padding: 0 29px 0 30px;
+  border-right: 1px solid var(--color-dark);
+  margin: 0 0 40px 0;
+}
+
+.section-shows__item:last-child {
+  border: none;
+}
+@media screen and (max-width: 1440px) {
+  .section-shows__item:nth-child(2) {
+    padding: 0 30px;
+    border: none;
+  }
+}
+@media screen and (max-width: 975px) {
+  .section-shows__item {
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid var(--color-dark);
+  }
+  .section-shows__item:nth-child(2) {
+    padding: 0 0 0 12px;
+    border-bottom: 1px solid var(--color-dark);
+  }
+}

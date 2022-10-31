@@ -1,0 +1,5 @@
+@media screen and (max-width: 975px) {
+  .section-shows__title_hiding {
+    display: none;
+  }
+}

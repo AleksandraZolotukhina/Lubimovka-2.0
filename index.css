@@ -116,3 +116,21 @@
 @import url(./blocks/footer/__design-logo/footer__design-logo.css);
 @import url(./blocks/footer/__design-author/footer__design-author.css);
 @import url(./blocks/footer/__author/footer__author.css);
+
+@import url(./blocks/section-shows/section-shows.css);
+@import url(./blocks/section-shows/__container/section-shows__container.css);
+@import url(./blocks/section-shows/__container/_count/section-shows__container_count_one.css);
+@import url(./blocks/section-shows/__container/_count/section-shows__container_count_two.css);
+@import url(./blocks/section-shows/__item/section-shows__item.css);
+@import url(./blocks/section-shows/__title/section-shows__title.css);
+@import url(./blocks/section-shows/__title/_hiding/section-shows__title_hiding.css);
+
+@import url(./blocks/show/show.css);
+@import url(./blocks/show/__cover/show__cover.css);
+@import url(./blocks/show/__description/show__description.css);
+@import url(./blocks/show/__time/show__time.css);
+@import url(./blocks/show/__name/show__name.css);
+@import url(./blocks/show/__people/show__people.css);
+@import url(./blocks/show/__reading/show__reading.css);
+@import url(./blocks/show/__btn/show__btn.css);
+@import url(./blocks/show/__link/show__link.css);
