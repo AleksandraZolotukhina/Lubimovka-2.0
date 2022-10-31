@@ -1,0 +1,17 @@
+.footer__container-partners {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+    .footer__container-partners {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer__container-partners {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 2fr));
+    }
+}

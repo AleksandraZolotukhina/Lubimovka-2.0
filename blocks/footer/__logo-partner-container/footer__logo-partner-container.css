@@ -1,0 +1,7 @@
+.footer__logo-partner-container {
+    margin-right: 30px;
+}
+
+.footer__logo-partner-container:last-child {
+    margin-right: 0;
+}

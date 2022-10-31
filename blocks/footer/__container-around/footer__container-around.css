@@ -1,0 +1,11 @@
+.footer__container-around {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 810px) {
+    .footer__container-around {
+        flex-direction: column;
+    }
+}
