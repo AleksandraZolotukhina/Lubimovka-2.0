@@ -1,0 +1,36 @@
+.popup__btn {
+  position: relative;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.popup__btn:active {
+  animation: scale 1s ease;
+}
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+    }
+
+
+    @media screen and (max-width: 770px) {
+  .popup__btn {
+    right: 16px;
+  }
+}
+

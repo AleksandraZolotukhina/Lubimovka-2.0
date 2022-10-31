@@ -1,0 +1,23 @@
+.popup__btn_close {
+  z-index: 2;
+  position: absolute;
+  right: 99px;
+  top: 16px;
+  width: 41px;
+  height: 41px;
+  background-image: url(../../../../images/btn-cross.svg);
+  background-color: var(--color-light);
+  background-size: 9px;
+  transition: 1s;
+}
+
+.popup__btn_close:hover {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 770px) {
+  .popup__btn_close {
+    right: 16px;
+    top: 56px;
+  }
+}
