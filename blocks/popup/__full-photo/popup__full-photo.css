@@ -1,7 +1,13 @@
 .popup__full-photo {
-    width: 54vw;
-    max-width: 780px;
+    width: 780px;
     max-height: 545px;
+}
+
+@media screen and (max-width: 980px) {
+    .popup__full-photo {
+    width: 570px;
+    
+    }
 }
 
 @media screen and (max-width: 770px) {

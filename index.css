@@ -7,6 +7,6 @@
 @import url(./blocks/popup/__full-photo/popup__full-photo.css);
 @import url(./blocks/popup/__btn/popup__btn.css);
 @import url(./blocks/popup/__btn/_close/popup__btn_close.css);
-@import url(./blocks/popup/__btn/-arrow/popup__btn-arrow.css);
-@import url(./blocks/popup/__btn/-arrow/_next/popup__btn-arrow_next.css);
-@import url(./blocks/popup/__btn/-arrow/_previous/popup__btn-arrow_previous.css);
+@import url(./blocks/popup/__btn-arrow/popup__btn-arrow.css);
+@import url(./blocks/popup/__btn-arrow/_next/popup__btn-arrow_next.css);
+@import url(./blocks/popup/__btn-arrow/_previous/popup__btn-arrow_previous.css);
