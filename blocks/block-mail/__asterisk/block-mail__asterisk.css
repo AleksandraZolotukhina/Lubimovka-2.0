@@ -1,0 +1,12 @@
+.block-mail__asterisk {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 52%;
+}
+
+@media screen and (max-width: 930px) {
+  .block-mail__asterisk {
+    right: 90%;
+  }
+}
