@@ -1,9 +1,10 @@
 .header__btn-projects {
-    margin: 20px 0 0 0;
-    display: none;
+    margin: 30px 0 0 0 !important;
+    padding: 0 0 0 6px !important;
+    display: none !important;
 }
 @media screen and (max-width: 670px) {
   .header__btn-projects {
-    display: block;
+    display: flex !important;
   }
 }
